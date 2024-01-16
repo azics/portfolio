@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="description"
+    content=""
+  />
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <link
+    rel="stylesheet"
+    href="./src/sass/main.css"
+  />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./src/libs/three.r134.min.js"></script>
+  <script src="./src/libs/vanta.vaves.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="cursor">
+    <div class="circle"></div>
+    <div class="cursor-dot"></div>
+  </div>
+  <div class="provoke-scroll">
+    <div class="provoke-scroll__line">
+      <div class="provoke-scroll__moving-line"></div>
+    </div>
+    <p class="provoke-scroll__text">scroll</p>
+  </div>
+  <div class="menu-button">
+    <div class="burger">
+      <div class="burger__line"></div>
+      <div class="burger__line"></div>
+    </div>
+  </div>
+  <header class="header">
+    <nav class="nav">
+      <ul class="menu">
+        <li class="menu__item">
+          <a
+            href="#"
+            class="menu__link download-cv"
+          >
+            <span class="meni-icon icon-download"></span>
+            <span>CV</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a
+            href="#home"
+            class="menu__link"
+          >
+            <span class="meni-icon icon-location"></span>
+            <span>Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a
+            href="#about"
+            class="menu__link"
+          >
+            <span class="meni-icon icon-user"></span>
+            <span>About</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a
+            href="#skills"
+            class="menu__link"
+          >
+            <span class="meni-icon icon-skills"></span>
+            <span>Skills</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a
+            href="#portfolio"
+            class="menu__link"
+          >
+            <span class="meni-icon icon-portfolio"></span>
+            <span>Portfolio</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a
+            href="#contacts"
+            class="menu__link"
+          >
+            <span class="meni-icon icon-contact"></span>
+            <span>Contacts</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="socials">
+        <li class="socials__item">
+          <a
+            class="socials__link"
+            href="https://github.com/azics"
+            target="_blank"
+          >
+            <span class="socials__icon icon-github"></span>
+          </a>
+        </li>
+        <li class="socials__item">
+          <a
+            class="socials__link"
+            href="https://t.me/azics"
+            target="_blank"
+          >
+            <span class="socials__icon icon-telegram"></span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div
+    class="bg"
+    id="bg"
+  ></div>
+  <main
+    class="main"
+    id="main"
+  >
+    <div class="right__content">
+      <div class="right__inner">
+        <div class="author-name">
+          <p>Azamat Giyasov</p>
+          <span class="decor-line"></span>
+        </div>
+        <img
+          class="author-image"
+          src="./src/img/003-fotor-bg-remover-2024011620312.png"
+          alt="the author image"
+        />
+      </div>
+    </div>
+    <div class="left__content">
+      <div class="left__inner">
+        <div class="container">
+          <section
+            class="intro"
+            id="home"
+          >
+            <span class="section-name into__name">introduction</span>
+            <h1 class="intro__title">I'm a Full-stack <br />Developer</h1>
+            <span class="decor-line"></span>
+          </section>
+          <section
+            class="about"
+            id="about"
+          >
+            <span class="section-name">summary</span>
+            <h2 class="about__title">About me</h2>
+            <span class="decor-line"></span>
+            <p class="about__text">
+              I'm a former coding enthusiast with a math background. Former hotelier. And now a Full-stack developer,
+              mainly focusing on Front-end development with 4+ years of experience.
+              Proficient in Vue ecosystem.
+              I've bachelor's degree in Math. I'm an self-motivated, reliable, responsible and hard
+              working person. I'm able to work
+              well under pressure and adhere to strict deadlines.
+            </p>
+          </section>
+          <section
+            class="skills"
+            id="skills"
+          >
+            <span class="section-name">skills</span>
+            <h2 class="about__title">
+              Skills I've collected <br />
+              and improving day by day
+            </h2>
+            <span class="decor-line"></span>
+            <ul class="skills-list">
+              <li class="skills-list__item">
+                <span class="skills-list__name">HTML/CSS</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Javascript</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Typescript</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Vue</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Vuex</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">NodeJS</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Express</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">NestJS</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">TypeORM</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">PostgreSQL</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Git/GitHub</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Docker</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">K8s</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Webpack</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Vite</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Scss</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Figma</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">BEM</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Vuetify</span>
+              </li>
+              <li class="skills-list__item">
+                <span class="skills-list__name">Bootstrap</span>
+              </li>
+            </ul>
+          </section>
+          <section class="experience">
+            <span class="section-name">resume</span>
+            <h2 class="experience__title">Experience</h2>
+            <span class="decor-line"></span>
+            <p class="experience__text"></p>
+            <div class="timeline">
+              <div class="timeline__item">
+                <p class="timeline__period">SoftData 2023-2024</p>
+                <p class="timeline__position">Full-stack Developer</p>
+                <p class="timeline__text">
+                  Responsibilities:<br />
+                  - Developed frontend applications from scratch<br />
+                  - Created UI components and page templates based on Figma Layout<br />
+                  - Write Unit tests<br />
+                  - Participated in the creation backend using Nest.JS<br />
+                  - Participated in bug fixing and support
+                </p>
+              </div>
+              <div class="timeline__item">
+                <p class="timeline__period">Ucell 2020-2023</p>
+                <p class="timeline__position">Software Engineer</p>
+                <p class="timeline__text">
+                  Responsibilities:<br />
+                  - Participated in the creation of an integrated system with 200+ modules for automating and
+                  controlling the company's business and technical processes (ERP, CRM)<br />
+                  - Developed a re-usable, maintainable and easy-to-understand finTech, troubleshooting, large data
+                  sets, geo map locations modules of application<br />
+                  - Implemented designs that work across all modern desktop and mobile browsers<br />
+                  - Write Unit Tests<br />
+                  - Participated in bug fixing and support
+                </p>
+              </div>
+              <div class="timeline__item">
+                <p class="timeline__period">Grandline 2018-2020</p>
+                <p class="timeline__position">Web Developer</p>
+                <p class="timeline__text">
+                  Responsibilities:<br />
+                  - Build websites from scratch, customize templates, utilize WordPress CMS<br />
+                  - Ensure responsive, accessible designs for all devices
+                </p>
+              </div>
+              <div class="timeline__item">
+                <p class="timeline__period">ALM SOFT 2017-2018</p>
+                <p class="timeline__position">Junior Frontend Developer</p>
+                <p class="timeline__text">
+                  Responsibilities:<br />
+                  - Built adaptive landing pages<br />
+                  - Participated in the creation of FinTech SPA, based on the ASP.NET SPA (MVVM) and Knockout.js, built
+                  with monolithic architecture
+                </p>
+              </div>
+              <div class="timeline__item">
+                <p class="timeline__period">School 2016-2017</p>
+                <p class="timeline__position">Mathematics teacher</p>
+                <p class="timeline__text">
+                  Responsibilities:<br />
+                  -Teaching and educating students, taking into account the
+                  specifics of the subject "Informatics" and the age of
+                  students, in accordance with the developed program of a
+                  general education institution and state educational
+                  standards..
+                </p>
+              </div>
+            </div>
+          </section>
+          <section
+            class="portfolio"
+            id="portfolio"
+          >
+            <span class="section-name">Portfolio</span>
+            <h2 class="experience__title">Selected Work</h2>
+            <span class="decor-line"></span>
+            <ul class="portfolio__list">
+              <li>
+                <a
+                  class="portfolio__item item1"
+                  href="./"
+                >
+                  <div class="portfolio__content">
+                    <p class="portfolio__name">Portfolio</p>
+                    <span class="decor-line"></span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="portfolio__item item4"
+                  href="https://azics.github.io/15-gem/"
+                >
+                  <div class="portfolio__content">
+                    <p class="portfolio__name">Gem Puzzle</p>
+                    <span class="decor-line"></span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="portfolio__item item4"
+                  href="https://github.com/azics"
+                >
+                  <div class="portfolio__content">
+                    <p class="portfolio__name">
+                      For more please visit my github account
+                    </p>
+                    <span class="decor-line"></span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <section class="education">
+            <span class="section-name">education</span>
+            <h2 class="experience__title">My Education</h2>
+            <span class="decor-line"></span>
+            <p>National University of Uzbekistan</p>
+            <p>Faculty of Applied Mathematics and Informatics</p>
+            <br />
+            <p>Lifetime YouTube learner :)</p>
+          </section>
+          <section class="languages">
+            <span class="section-name">Languages</span>
+            <h2 class="experience__title">Languages I speak</h2>
+            <span class="decor-line"></span>
+            <ul class="languages-list">
+              <li class="languages-item">English (Intermediate)</li>
+              <li class="languages-item">Russian (Excellent)</li>
+              <li class="languages-item">Uzbek (Native)</li>
+            </ul>
+          </section>
+          <section
+            class="contacts"
+            id="contacts"
+          >
+            <span class="section-name">Contact</span>
+            <h2 class="experience__title">Let's get in touch.</h2>
+            <span class="decor-line"></span>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <a
+                  href="mailto:giyasov.azamat@gmail.com"
+                  class=""
+                >Email: giyasov.azamat@gmail.com</a>
+              </li>
+              <li class="contacts__item">
+                <a
+                  href="t.me/azics"
+                  class=""
+                >Telegram: @azics</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./src/js/index.js"></script>
+  <script src="./src/js/cursor.js"></script>
+  <script src="./src/js/burger.js"></script>
+  <script src="./src/js/provoke-scroll.js"></script>
+  <script src="./src/js/download-cv.js"></script>
+  <script src="./src/js/scroll-reveal.js"></script>
+  <script src="./src/js/bg.js"></script>
+</body>
+
+</html>
